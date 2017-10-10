@@ -53,6 +53,3 @@ function clicked(event){
   stringIn = stringIn.replace(",", "");
   $("#stringOut").text(stringIn);
 };
-
-$(document).ready(function(){
-});

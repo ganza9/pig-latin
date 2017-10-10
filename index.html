@@ -4,19 +4,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/pig-latin.js"></script>
+    <script type="text/javascript" src="js/pig-latin-interface"></script>
     <meta charset="utf-8">
     <title>Pig Latin</title>
   </head>
   <body>
-    <form id="formOne">
-      <div class="form-group">
-        <p>Please enter a string and get it's output: </p>
-        <label for="stringIn"></label>
-        <input id="stringIn" class="form-control" type="text">
-        <button type="submit" class="btn" onclick="clicked(event)">Submit!</button>
-        <p id="stringOut"></p>
-      </div>
-    </form>
+    <div class="container">
+      <form id="formOne">
+        <div class="form-group">
+          <h1 class="jumbotron">Turn a word or phrase into pig latin:</h1>
+          <label for="stringIn"></label>
+          <input id="stringIn" class="form-control" type="text">
+          <br>
+          <button type="submit" class="btn btn-primary" onclick="clicked(event)">Submit!</button>
+          <p id="stringOut"></p>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
