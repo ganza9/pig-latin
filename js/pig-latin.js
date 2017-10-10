@@ -7,7 +7,7 @@ function vowelStartCheck(stringIn){
   }
   stringIn = word.join("");
   return stringIn;
-};
+}
 
 function consonantStartCheck(stringIn){
   var word = stringIn.split("");
@@ -38,7 +38,7 @@ function consonantStartCheck(stringIn){
     stringIn = word.join("");
   }
   return stringIn;
-};
+}
 
 function clicked(event){
   event.preventDefault();
@@ -52,4 +52,4 @@ function clicked(event){
   }
   stringIn = stringIn.replace(",", "");
   $("#stringOut").text(stringIn);
-};
+}
